@@ -1,0 +1,22 @@
+﻿@model ViewImageModel
+
+<div class="container">
+    <main role="main" class="pb-3">
+
+        <div class="row">
+            <div class="col-md-8 offset-md-2 jumbotron">
+                <h3>
+                    View Link Below:
+
+                    <br /><br />
+                    <a href="https://localhost:42410/home/viewimage?id=@Model.Id">
+                        https://localhost:42410/home/viewimage?id=@Model.Id
+                    </a>
+                    <br /><br />
+
+                    Make sure to give them this password "@Model.Password"
+                </h3>
+            </div>
+        </div>
+    </main>
+</div>
